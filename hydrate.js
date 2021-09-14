@@ -1,4 +1,4 @@
-import { render } from './reconcile'
+import { render } from 'fre'
 
 function createWalker(node) {
   return document.createTreeWalker(node, NodeFilter.SHOW_ELEMENT, {
