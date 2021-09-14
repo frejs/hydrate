@@ -18,7 +18,7 @@ function morph(sourceElement, targetElement) {
     // TODO more things
     if (currentNode.tagName === targetNode.tagName) {
       if (currentNode === document.activeElement) {
-        window.requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
           targetNode.focus()
         })
       }
